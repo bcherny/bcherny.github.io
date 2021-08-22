@@ -1,8 +1,8 @@
-# Kaz's cool new site!
+# Feminist Archaeology in Japan 
 
-Welcome!
+日本考古学・民俗学に関わりをもつ有志によって運営されているフェミニスト考古学勉強会のサイトです。
 
-# Lists
+# Contents
 
 - This
 - is
