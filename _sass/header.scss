@@ -1,0 +1,23 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 32px 0;
+
+  .heading,
+  nav {
+    flex: 1;
+  }
+
+  nav {
+    text-align: right;
+
+    ul {
+      list-style: none;
+    }
+  }
+
+  a {
+    color: #666;
+  }
+}

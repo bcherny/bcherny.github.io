@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}" />
+  </head>
+  <body>
+    <section class="top" role="heading">
+      <header role="heading">
+        <h1>
+          <a href="{{ '/' | relative_url }}">{{site.title}}</a>
+        </h1>
+      </header>
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="{{ '/about' | relative_url }}">About</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="content" role="article">{{ content }}</section>
+  </body>
+</html>

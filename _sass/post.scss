@@ -1,0 +1,54 @@
+.content {
+  font: 18px/28px Palatino, 'Palatino Linotype', Georgia, Times,
+    'Times New Roman', serif;
+  text-rendering: optimizelegibility;
+
+  .title {
+    margin-bottom: 4px;
+  }
+
+  .date {
+    color: #666;
+    font-size: 16px;
+  }
+
+  // @media screen and (max-width: 800px) {
+  //   .post-title {
+  //     font-size: 36px;
+  //   }
+  // }
+
+  .post-content {
+    margin-bottom: 30px;
+  }
+
+  .post-content h2 {
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .post-content h2 {
+      font-size: 28px;
+    }
+  }
+
+  .post-content h3 {
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .post-content h3 {
+      font-size: 22px;
+    }
+  }
+
+  .post-content h4 {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .post-content h4 {
+      font-size: 18px;
+    }
+  }
+}
