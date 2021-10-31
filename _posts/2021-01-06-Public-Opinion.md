@@ -58,4 +58,5 @@ I think we should use Lippmann's framework for public opinion as a roadmap for h
   2. Increase arts grants to spur empathy and imagination.
   3. Invest in ways to get rural folks to move to cities for a few years, and vice-versa. People need to see the other side as concrete people, not abstract evils.
 - **Context**:
-  1. Discourage tribalism and build a stonger a national identity with all of the above.
+  1. Invest in a national counter-propaganda (in the [Bernays](https://smile.amazon.com/Propaganda-Edward-Bernays/dp/0970312598) sense) that promotes shared values (democracy, freedom, decency) over the tribal propagandas of today.
+  2. Discourage tribalism and build a stonger a national identity with all of the above.
