@@ -2,7 +2,7 @@
 layout: post
 title: On Contagion
 date: 2019-09-08
-categories: JavaScript React Haskell
+categories: "Philosophy of programming"
 ---
 
 If you have a tree with a node that has a property `P`, and all of its parents also need to have property `P`, then `P` is contagious.
@@ -12,6 +12,7 @@ When can that happen?
 - Exceptions bubble up through the call tree
 - State has to be lifted up to the root of a call tree
 - If a function is `async`, its ancestors must be too
+- Centralized services also centralize any decentralized services that call them
 - In a physical system, if you know the position and momentum of an object `A` and it collides with another object `B` that you don't know one of those quantities for, then you no longer know them about `A`. (caveat: I'm no physicist)
 
 Concretely:
