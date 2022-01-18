@@ -28,4 +28,4 @@ Criteria:
 | Trapa natans | Water caltrop nuts | [66M](https://en.wikipedia.org/wiki/Water_caltrop#Fossil_record)
 | Nelumbo lutea, Nelumbo nucifera | Lotus | [65M+](https://ebrary.net/27989/environment/lotus)
 
-*Note: I'm a hobbyist, and not a paleobotanist. Additions and edits welcome, if I misclassified or missed anything.*
+*Note: I'm a hobbyist, and not a paleobotanist. Additions and edits are [welcome](https://github.com/bcherny/bcherny.github.io/edit/main/_posts/2022-01-17-Dinosaur-food.md), if I misclassified or missed anything.*
