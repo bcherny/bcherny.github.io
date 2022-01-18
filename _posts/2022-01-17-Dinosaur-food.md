@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Dinosaur Food: The oldest foods people eat today'
+title: 'Dinosaur Food: 100 million year old foods we still eat today'
 categories: Food
 ---
 
