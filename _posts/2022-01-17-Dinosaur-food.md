@@ -17,7 +17,7 @@ Criteria:
 
 | Photo | Kingdom | Species | Common name | Age (years)
 |---|----|--|----|--|
-| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Limulus_polyphemus_horseshue_crab_on_coast.jpg" width=60 /> | Animalia | Tachypleus tridentatus | Horeshoe crab | [480M](https://www.frontiersin.org/articles/10.3389/feart.2020.00098/full)
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Limulus_polyphemus_horseshue_crab_on_coast.jpg" width=60 /> | Animalia | Tachypleus tridentatus | Horseshoe crab | [480M](https://www.frontiersin.org/articles/10.3389/feart.2020.00098/full)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/GinkgoLeaves.jpg/1280px-GinkgoLeaves.jpg" width=60 /> | Plantae | Ginkgo biloba | Maidenhair nuts | [290M](https://www.sciencedirect.com/science/article/abs/pii/S1871174X0900002X?via%3Dihub)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/WilaBig.jpg" width=60 /> | Plantae | Bryoria fremontii | Wila | [250M](https://en.wikipedia.org/wiki/Moss#Geological_history)?
 | <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Cladonia_portentosa_top.JPG" width=60 /> | Plantae | Cladonia rangiferina | Reindeer lichen | [250M](https://en.wikipedia.org/wiki/Moss#Geological_history)?
