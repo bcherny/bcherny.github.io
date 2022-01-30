@@ -8,7 +8,7 @@ I just finished Oliver Sacks' excellent _[Everything in Its Place](https://www.p
 
 Of course, this is the same tree that grows ぎんなん (Ginkgo nuts), an East Asian delicacy found in many dishes, 茶碗蒸し (Chawanmushi) for example.
 
-Ginkgo has been around so long, it predates the dinosaurs! And we still eat it! How cool is that. This got me thinking -- what are the oldest food we consume today?
+Ginkgo has been around so long, it predates the dinosaurs! And we still eat it! How cool is that. This got me thinking -- what are the oldest foods we consume today?
 
 Criteria:
 
