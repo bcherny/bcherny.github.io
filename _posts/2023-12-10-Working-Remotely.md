@@ -5,7 +5,7 @@ date: 2023-12-10
 categories: Tech
 ---
 
-For the last year and a half, I have been working at Instagram in Japan. It's a bit of an unusual setup: I live and work remotely from Nara, Japan, in a timezone that few other Meta engineers work in (most of Instagram and Meta is spread across the US and Europe).
+For the last year and a half, I have been working at Instagram in Japan. It's a bit of an unusual setup: I live and work remotely from Nara, Japan, in a timezone that few other Meta engineers work in (most of Instagram and Meta are spread across the US and Europe).
 
 I am fortunate to have the opportunity to have a setup like this. How I ended up here is a long story, which I will save for another post. For this post, I'd like to talk about what I have learned about effectively contributing to an engineering organization when you are isolated from your coworkers physically, temporally, and organizationally.
 
@@ -25,7 +25,7 @@ However, I did find that writing code again was rewarding. In my first two weeks
 
 ## Leaning in
 
-I started to shift the kinds of things I worked on a bit, to focus more on simplifying our codebase, improving our infrastructure, and making our engineers more productive. I had done infra and DevX work in the past (some of it [open source](https://github.com/bcherny), but it had always been limited to 20% time projects. It was never my main gig. I considered myself a product engineer, but found myself sliding deeper into the world of infrastructure and DevX.
+I started to shift the kinds of things I work on, to focus more on simplifying our codebase, improving our infrastructure, and making our engineers more productive. I had done infra and DevX work in the past (some of it [open source](https://github.com/bcherny), but it had always been limited to 20% time projects. It was never my main gig. I considered myself a product engineer, but found myself sliding deeper into the world of infrastructure and DevX.
 
 This shift was not something I did intentionally. Because my time no longer got filled up by meetings and obligations that other people put on my plate, coding and fixing the issues I found while coding gradually took up more and more of my time, until six months into being in Japan I realized that it had become my main work. I felt happy about the work I was doing, and satisfied writing code again. I started to gain a reputation as an engineer that knows the codebase and has good technical opinions, despite still having been at Instagram a relatively short time, due to how much code I was churning out and the pain points I was fixing for other engineers along the way. (By this point, I was in the top 1% of engineers at Instagram by code output.)
 
