@@ -47,3 +47,5 @@ I also had to adjust my schedule to better manage my own health. When I worked i
 ## Closing
 
 Overall, the move turned out well for me: I have learned to work effectively from a very different timezone, and am happy with the results. I don't think this setup would work well for everyone, and I feel lucky that I was able to iterate to a working style that is good for me. I am grateful that my organization supports and appreciates the work I do, and is accommodating of the way I do it. I hope my experience resonates with others, and am eager to learn about others' experiences in similar setups.
+
+Discuss this post on [Threads](https://www.threads.net/@boris_cherny/post/C0r9eUcPTCs).
