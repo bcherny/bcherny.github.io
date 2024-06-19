@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'ES Modules are a mess'
-date: 2024-07-19
+date: 2024-06-19
 categories: JavaScript, TypeScript
 ---
 
