@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ES Modules: NPM and NodeJS should do more'
+title: 'NPM and NodeJS should do more to make ES Modules easy to use'
 date: 2024-06-19
 categories: JavaScript, TypeScript
 ---
@@ -52,7 +52,7 @@ This helps explain why it's so painful to interoperate ES Modules and CommonJS a
 
 The benefits of ES Modules are significant. Rolling everything back to CommonJS is not the way forward. Is there more we can do to simplify the ecosystem, and push harder on adoption? Some ideas:
 
-1. We should kill *.mjs*, *.cjs*, *.mts*, etc. The vast majority of projects use `type=module` in their *package.json*, rather than file extensions. It would simplify things considerably if we dropped support for these new file extensions and stick to *.js*, *.jsx*, *.ts*, and *.tsx*.
+1. We should kill *.mjs*, *.cjs*, *.mts*, etc. The vast majority of projects use `type=module` in their *package.json*, rather than file extensions. It would simplify things considerably if we drop support for these new file extensions and stick to *.js*, *.jsx*, *.ts*, and *.tsx*.
 2. We should make `type=module` the [default](https://github.com/npm/cli/issues/7594) for new *package.json* files for the `npm init`, `yarn init`, and `pnpm init` commands. Package managers' `publish` commands should warn when `type` is not set to `module`.
 3. We should upgrade the most common libraries used by the community to ES Modules, either manually or through automated pull requests (this feels like something that can be semi-automated).
 4. The NPM registry can require an explicit `module` field on new packages, making it clear when a package intentionally uses CommonJS (eg. because it targets legacy NodeJS versions).
