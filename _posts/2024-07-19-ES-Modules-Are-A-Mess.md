@@ -20,7 +20,7 @@ SyntaxError: Cannot use import statement outside a module
 
 These errors are all related to importing, typechecking, and loading modules. The JavaScript ecosystem moves fast, and things changing over the last few years was not a surprise. However, it was surprising to see so many errors related to such a core piece of the language!
 
-## Context
+## How we got here
 
 Modules in JavaScript and TypeScript have changed significantly over time:
 
@@ -30,7 +30,7 @@ Modules in JavaScript and TypeScript have changed significantly over time:
 - CommonJS can be challenging to statically analyze, and uses an [inefficient](https://www.youtube.com/watch?v=W5CXzo4TZVU), synchronous module loading algorithm at runtime. ES Modules were [introduced](https://tc39.es/ecma262/#sec-modules) as the way to use `import` and `export`, while at the same time improving code load times at runtime.
 - ES Modules introduced significant complexity for NodeJS in particular: instead of reusing the *.js* and *.ts* file extensions, ES Modules in NodeJS require either using *.mjs*, or setting `type=module` in your *package.json*. Interoperating these modules with an ecosystem-ful of CommonJS remains painful.
 
-## Current state
+## Current state, by the numbers
 
 I was curious -- since ES Modules (`import`/`export`) were introduced in [2015](https://262.ecma-international.org/6.0/#sec-modules), and NodeJS has supported `type=module/commonjs`, *.mjs*, and *.cjs*, with the goal of replacing *.js*, since [2019](https://nodejs.org/api/packages.html#type), to what degree have these new conventions been adopted?
 
@@ -46,7 +46,7 @@ The [results](https://github.com/bcherny/es-module-stats) are not rosy. After 5+
 
 Note that these ranges come from the two approaches I used to estimate the numbers. Head [here](https://github.com/bcherny/es-module-stats) for more detailed data and code.
 
-## What's next?
+## How do we fix it?
 
 This helps explain why it's so painful to interoperate ES Modules and CommonJS across both NodeJS and TypeScript: enough libraries use ES Modules that for many projects you need to either use ES Modules, or figure out how to interoperate ES Modules with your CommonJS code. At the same time, enough code still uses CommonJS that you often need to figure out how to include that legacy code in your otherwise-ES Module project.
 
