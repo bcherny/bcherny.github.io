@@ -11,6 +11,9 @@ Coming back to JavaScript and TypeScript after a few years neck deep in Python a
 # when I ran ESM TypeScript code the wrong way:
 Error [ERR_REQUIRE_ESM]: Must use import to load ES Module
 
+# when I imported an ESModule from a CommonJS .js file:
+Error [ERR_REQUIRE_ESM]: require() of ES Module .../lodash.js from .../index.cjs not supported
+
 # when I imported an ESModule from a .ts file:
 error TS1479: The current file is a CommonJS module whose imports will produce 'require' calls
 
