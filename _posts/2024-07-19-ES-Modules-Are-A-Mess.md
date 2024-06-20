@@ -59,3 +59,7 @@ The benefits of ES Modules are significant. Rolling everything back to CommonJS 
 5. NodeJS can officially drop support for `require` and `module.exports` in a future version, creating a bit more pressure to migrate.
 
 I'd love to hear others' thoughts. Have you also felt the pain of interoperating ES Modules and CommonJS?
+
+---
+
+Discuss this post on [HackerNews](https://news.ycombinator.com/item?id=40737508) or on [Threads](https://www.threads.net/@boris_cherny/post/C8aDJuGI5HM).
