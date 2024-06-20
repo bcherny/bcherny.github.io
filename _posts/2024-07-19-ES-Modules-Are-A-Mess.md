@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ES Modules are a mess'
+title: 'ES Modules: NPM and NodeJS should do more'
 date: 2024-06-19
 categories: JavaScript, TypeScript
 ---
