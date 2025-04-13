@@ -58,9 +58,27 @@ More details in the [docs](https://docs.anthropic.com/en/docs/agents-and-tools/c
 
 # 2. Common workflows
 
-## a. Plan, code, commit
+Claude Code does not force you to use a specific workflow. This means flexibility -- you can use Code the way you want -- and it also means the community has experimented and come up with a number of workflows. Below is a short list of some of the most common ones.
 
-## a. Write tests, commit, code, commit
+## a. Explore, plan, code, commit
+
+This is a workhorse workflow, useful for a variety of problems. It looks like this:
+
+1. Start by asking Claude to read the relevant files, images, or URLs, providing either general pointers ("read the file that handles logging") or specific filenames ("read logging.py"). Tell Claude not to write any code just yet.
+2. Then, ask Claude to make a plan for how to approach a specific problem. Optionally, use the word "think" to trigger extended thinking to more deeply trade off alternatives; use stronger language to encourage longer thinking: "think" < "think hard" < "megathink" < "think harder" < "ultrathink".
+3. Ask Claude to implement its solution in code
+4. Finally, ask Claude to commit the result
+
+Without #1-#2, Claude will tend to jump to coding a solution. Sometimes, that's what you want. By asking it to research and plan ahead, you can squeeze significantly better performance out of Claude in cases where a problem needs deeper thinking upfront.
+
+## a. Write tests, commit; code, iterate, commit
+
+This is my favorite workflow for changes that are easily testable with unit, integration, or e2e tests. There has been a lot written about TDD, and in the age of agentic coding, TDD becomes an even more powerful tool. Here's what it looks like:
+
+1. Ask Claude to write a few tests (eg. by giving it a set of expected input and output pairs), telling Claude not to run the tests yet because we're doing TDD.
+2. When you're happy with the tests, ask Claude to commit them
+3. Then, ask Claude to write code to make the tests pass. Instruct Claude not to edit the tests, and to keep going until the tests pass. It will usually take a few iterations for Claude to write code, run the tests, adjust the code, and run the tests again.
+4. Once you're happy with the changes, commit again
 
 ## b. Write code, see result, iterate 3-4x
 
@@ -80,6 +98,8 @@ Make PRs, fix build errors, do code review, triage issues
 
 # 3. Tips for any workflow
 
+## a. Be specific in your instructions
+
 ## a. Give Claude images
 
 Paste in screenshots, diagrams, etc. Especially useful when combined with iteration.
@@ -88,7 +108,15 @@ Paste in screenshots, diagrams, etc. Especially useful when combined with iterat
 
 ## c. Course correct early and often
 
-## c. To undo, just ask
+If you toggle auto-accept mode (shift+enter) and give Claude a prompt, it will pull in files, reason through the problem, and give you code back. The more effort you put into your prompt, the better result you'll get out. However, most of the time you should also nudge Claude along the way to adjust its approach. By being an active collaborator, you will often get better results than if you let Claude go off and do its thing.
+
+You have three tools to course-correct Claude:
+
+1. Press the Escape key to interrupt Claude. You can interrupt Claude anytime, including while it's thinking, or during a tool call, or when Claude is proposing a file edit. Interrupting retains everything in context, so you can refer back to what Claude was doing, including rejected file edits, and either tell Claude to take a different approach, or to continue what it was doing and also do something else after.
+2. Double-tap Escape to jump back in history. This is useful for cases where Claude went down the wrong path, and you want to adjust your earlier prompt to explore a different direction. Just edit the prompt and repeat until you get the result you're looking for.
+3. Ask Claude to undo its changes. I'll sometimes do this followed by #2, to get Claude to pursue a different path.
+
+Once in a while, Claude 1-shots what I had in mind and gets it perfect on the first try. But most of the time, I make use of these course-correction tools to guide Claude toward the right solution.
 
 ## d. Use /clear to keep context focused
 
