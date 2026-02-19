@@ -19,8 +19,8 @@ Criteria:
 |---|----|--|----|--|
 | <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Limulus_polyphemus_horseshue_crab_on_coast.jpg" width=60 /> | Animalia | Tachypleus tridentatus | Horseshoe crab | [480M](https://www.frontiersin.org/articles/10.3389/feart.2020.00098/full)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/GinkgoLeaves.jpg/1280px-GinkgoLeaves.jpg" width=60 /> | Plantae | Ginkgo biloba | Maidenhair nuts | [290M](https://www.sciencedirect.com/science/article/abs/pii/S1871174X0900002X?via%3Dihub)
-| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/WilaBig.jpg" width=60 /> | Plantae | Bryoria fremontii | Wila | [250M](https://en.wikipedia.org/wiki/Moss#Geological_history)?
-| <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Cladonia_portentosa_top.JPG" width=60 /> | Plantae | Cladonia rangiferina | Reindeer lichen | [250M](https://en.wikipedia.org/wiki/Moss#Geological_history)?
+| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/WilaBig.jpg" width=60 /> | Fungi | Bryoria fremontii | Wila | [250M](https://en.wikipedia.org/wiki/Moss#Geological_history)?
+| <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Cladonia_portentosa_top.JPG" width=60 /> | Fungi | Cladonia rangiferina | Reindeer lichen | [250M](https://en.wikipedia.org/wiki/Moss#Geological_history)?
 | <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Cycas_inflorescence.jpg" width=60 /> | Plantae | Cycas revoluta | Sago palm | [200M](http://www1.biologie.uni-hamburg.de/b-online/library/cycads/fossilspast.htm)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Zweig_der_Andentannne.JPG/2560px-Zweig_der_Andentannne.JPG" width=60 /> | Plantae | Araucaria araucana | Monkey puzzle tree nuts | [160M](https://www.pacificu.edu/about/campuses-locations/forest-grove-campus/guide-trees/monkeypuzzle)
 | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Equisetum_arvense_foliage.jpg/2560px-Equisetum_arvense_foliage.jpg" width=60 /> | Plantae | Equisetum arvense | Horsetail | [140M](https://en.wikipedia.org/wiki/Equisetum#Evolutionary_history)
